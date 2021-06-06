@@ -10,7 +10,28 @@ body, html {
 }
 
 body{
-  background-image: url(Audi_R8_V10_Coupe.jpg);
+  background-image: url(image/Audi_R8_V10_Coupe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p1{
+  background-image: url(image/ironman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p2{
+  background-image: url(image/spiderman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p3{
+  background-image: url(image/RedHood.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
