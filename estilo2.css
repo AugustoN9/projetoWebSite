@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+  background-image: url('image/Audi_R8_V10_Coupe.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p1{
+  background-image: url('image/ironman.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p2{
+  background-image: url('image/spiderman.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p3{
+  background-image: url('image/Red hood.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
